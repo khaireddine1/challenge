@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30d118d9-5285-4005-a381-b1ee18d84e62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mygJxc7j7WL8Z8E0zfw31D1pCp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Desktop\Test Technique\assets\css" />
+      <recent name="C:\Users\Administrateur\Desktop\Test Technique\assets\js" />
+      <recent name="C:\Users\Administrateur\Desktop\Test Technique\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Desktop\Test Technique\assets" />
+      <recent name="C:\Users\Administrateur\Desktop\Test Technique" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30d118d9-5285-4005-a381-b1ee18d84e62" name="Default Changelist" comment="" />
+      <created>1610471176599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610471176599</updated>
+      <workItem from="1610471177946" duration="10695000" />
+      <workItem from="1610519893697" duration="1219000" />
+      <workItem from="1610521935181" duration="1090000" />
+      <workItem from="1610727833787" duration="1892000" />
+      <workItem from="1610810915970" duration="1848000" />
+      <workItem from="1610823428779" duration="929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="165" key="#Deployment" timestamp="1610481954891">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="165" key="#Deployment/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610481954891" />
+    <state x="675" y="435" key="NewPhpFileDialog" timestamp="1610727851740">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="675" y="435" key="NewPhpFileDialog/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610727851740" />
+    <state x="64" y="106" width="1243" height="944" key="dock-window-1" timestamp="1610474467765">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="64" y="106" width="1243" height="944" key="dock-window-1/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610474467765" />
+    <state x="483" y="232" width="714" height="546" key="find.popup" timestamp="1610823451826">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="483" y="232" width="714" height="546" key="find.popup/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610823451826" />
+    <state x="743" y="240" width="305" height="529" key="ftp.server.browser" timestamp="1610481915303">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="743" y="240" width="305" height="529" key="ftp.server.browser/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610481915303" />
+    <state x="503" y="217" key="search.everywhere.popup" timestamp="1610480586200">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" key="search.everywhere.popup/0.0.1680.1010/1680.0.1680.1050@0.0.1680.1010" timestamp="1610480586200" />
+  </component>
+</project>

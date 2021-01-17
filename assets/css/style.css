@@ -1,0 +1,468 @@
+/*
+Main style file
+*/
+
+body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******************** HEADER ********************/
+#input-search {
+    /**/
+    height: 48px;
+    outline: none;
+    text-indent: 10px;
+    padding: 0;
+    width: calc(100% - 45px);
+}
+
+#input-search:placeholder-shown {
+    font-weight: 400;
+    color: rgba(23, 43, 77, 0.32);
+}
+#input-search::-webkit-input-placeholder {
+    font-weight: 400;
+    color: rgba(23, 43, 77, 0.32);
+}
+#input-search::-moz-placeholder {
+    font-weight: 400;
+    color: rgba(23, 43, 77, 0.32);
+}
+#input-search:-ms-input-placeholder {
+    font-weight: 400;
+    color: rgba(23, 43, 77, 0.32);
+}
+
+#animatedModal {
+    background: radial-gradient(#172B4D, #002159);
+    max-width: 500px;
+    color: #fff;
+    width: 100%;
+}
+
+.global-header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/back-header.png");
+}
+
+.global-header:after {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, #172B4D 0%, #05090F00 100%);
+}
+
+.global-header> div {
+    z-index: 1;
+    position: relative;
+}
+
+.top-header {
+    padding: 32px 15px 42px;
+}
+
+.top-header .logo-header {
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.top-header .btn-header {
+    text-align: center;
+}
+
+.top-header .link-header {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .48px;
+}
+
+.top-header .btn-action {
+    /**/
+    border: none;
+    color: #172B4D;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 20px;
+    outline: none;
+    line-height: 48px;
+    border-radius: 5px;
+    background: #D1D111;
+    box-shadow: none;
+    display: inline-block;
+    letter-spacing: -.32px;
+    transition: .3s all ease;
+}
+
+.top-header .btn-action:hover {
+    /**/
+    color: #D1D111;
+    background: #172B4D;
+}
+
+.flag-header {
+    /**/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 40px;
+}
+
+.flag-header .logo-click {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2.4px;
+}
+
+.flag-header .text-flag {
+    /**/
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -1.08px;
+    margin-bottom: 34px;
+}
+
+.flag-header .search-header {
+    /**/
+    width: 100%;
+}
+
+.flag-header .cover-input {
+    /**/
+    background: #fff;
+    padding: 16px 16px 16px 24px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flag-header .label-search {
+    /**/
+    font-size: 30px;
+    color: #172b4d52;
+    margin: 0;
+    line-height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-header .fa.fa-search {
+    /**/
+}
+
+.flag-header .input-search {
+    border: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.flag-header .btn-search {
+    border: none;
+    background: #004518;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    border-radius: 24px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -.32px;
+    transition: .3s all;
+    margin: 20px 0 0;
+}
+
+.flag-header .btn-search:hover {
+    background: #d1d111;
+    color: #172b4d;
+}
+
+.scrolltop .icon {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.scrolltop .icon i {
+    display: block;
+    line-height: 40px;
+}
+
+.scrolltop .icon i:before {
+    line-height: 40px;
+    display: block;
+}
+
+.scrolltop {
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    display: none;
+    width: 44px;
+    height: 44px;
+    z-index: 99999;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scrolltop.show {
+    display: block;
+}
+
+/******************** MAIN PAGE ********************/
+.separator {
+    padding: 20px;
+}
+
+.main-content {
+    padding: 80px 0 0;
+    background: linear-gradient(to bottom, #fff 0 260px, #fafbfc 260px 100%);
+}
+
+.main-content h1 {
+    color: #172B4D;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0 auto 32px;
+    letter-spacing: -.64px;
+}
+
+.item-frame {
+    /**/
+    background: #fff;
+    box-shadow: 0 13px 32px #00000014;
+    border-radius: 10px;
+    padding: 41px 16px 32px;
+    margin: 0 0 40px;
+    transition: 0.5s all;
+}
+
+.item-frame .icon-frame {
+    /**/
+    margin: 0 0 16px;
+}
+
+.item-frame .title-frame {
+    /**/
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.36px;
+    line-height: 22px;
+    margin: 0 auto 16px;
+    color: #172B4D;
+    max-width: 140px;
+}
+
+.item-frame .text-frame {
+    /**/
+    color: #172b4d80;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.title-commerce-lists h2 {
+    font-size: 26px;
+    letter-spacing: -.32px;
+    font-weight: 600;
+    color: #172B4D;
+    line-height: 39px;
+}
+
+.title-commerce-lists {
+    margin: 0 0 36px;
+}
+
+.item-commerce-list {
+    /**/
+    display: block;
+    transition: .3s all;
+    margin: 0 0 30px;
+}
+
+.item-commerce-list:hover {
+    text-decoration: none;
+}
+
+.item-commerce-list  .img-commerce {
+    /**/
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.item-commerce-list:hover  .img-commerce img{
+    transform: scale(1.15) rotate(1deg)
+}
+
+.item-commerce-list .img-commerce img {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transition: .5s;
+}
+
+.item-commerce-list  .title-item {
+    /**/
+    padding: 16px 0 12px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -.36px;
+    color: #172B4D;
+}
+
+.item-commerce-list  .category-item {
+    /**/
+    color: #172b4d80;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.load-mor {
+    padding: 28px 0;
+    text-align: center;
+}
+
+.load-mor a {
+    color: #172B4D;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .32px;
+    text-decoration: underline;
+}
+
+/******************** FOOTER ********************/
+
+footer {
+    padding: 32px 0;
+}
+
+
+/*************************************************
+------------------ Media Query  ------------------
+*************************************************/
+
+@media (min-width: 768px) {
+
+    .top-header .btn-action {
+        padding: 0 28px;
+    }
+
+    .top-header .logo-header {
+        margin: 0;
+        text-align: left;
+    }
+
+    .top-header .btn-header {
+        text-align: right;
+    }
+
+    .flag-header .logo-click {
+        font-size: 110px;
+        line-height: 146px;
+    }
+
+    .flag-header .text-flag {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+
+    .flag-header .search-header {
+        width: 100%;
+        margin: auto;
+        max-width: 702px;
+    }
+
+    .flag-header .cover-input {
+        border-radius: 40px;
+    }
+
+    #input-search {
+        width: calc(100% - 232px);
+    }
+
+    .flag-header .btn-search {
+        max-width: 202px;
+        margin: 0;
+    }
+
+    .title-commerce-lists h2 {
+        font-size: 32px;
+    }
+
+    .separator {
+        padding: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+    .flag-header .logo-click {
+        font-size: 120px;
+    }
+}
+
+@media (min-width: 992px) {
+    .global-header {
+        background-attachment: fixed;
+    }
+
+    .top-header {
+        padding: 32px 15px 80px;
+    }
+
+    .flag-header {
+        padding: 0 10px 196px;
+    }
+
+    .flag-header .text-flag {
+        font-size: 54px;
+        line-height: 66px;
+        max-width: 1055px;
+        margin: 0 auto 32px;
+        width: 100%;
+    }
+
+    .cover-frame {
+        margin: auto;
+        width: 100%;
+        max-width: 815px;
+    }
+
+    .cover-commerce {
+        margin: auto;
+        width: 100%;
+        max-width: 1088px;
+    }
+
+
+}
